@@ -1,0 +1,260 @@
+/* body background*/
+body {
+ 	background: url(../img/bgk.png);
+    background-repeat:repeat;
+}
+
+/*start of navigation*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+     /*Sets the text hover color on navbar*/
+  	background-color: #F3F3F3;
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus { 
+  	color: #1565B2; /*BACKGROUND color for active*/
+  	background-color: #F5F5F5;
+  	font-weight: bold;
+  	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	-ms-border-radius: 3px;
+  	-o-border-radius: 3px;
+  	border-radius: 3px;
+  	border: 1px solid #C4C4C4;
+  	max-width:1024px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus a { 
+  	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	-ms-border-radius: 3px;
+  	-o-border-radius: 3px;
+  	border-radius: 3px;
+  	display: block;
+  	background: #F5F5F5;
+  	border: 1px solid #F5F5F5 ;
+	  max-width:1024px;
+ 	  background-color: transparent;
+    border-bottom: 3px solid #1565B2;
+}
+
+.navbar-default.
+{
+	color: 	#1873CC; /*BACKGROUND color for active*/
+	background-color: #F8F8FF ;
+	max-width:1024px;
+}
+
+
+.nav-size
+{
+	height: -2px;
+	max-width:1024px;
+}
+
+.active
+{
+	background-color: #F5F5F5;
+}
+
+/* end of navigation bar*/
+
+/*start of banner*/
+
+.page-header>.no-margin a
+{
+	max-width:1024px;
+	margin-right: 0px;
+	margin-left: 0px;
+
+}
+
+ .no-margin
+{
+	max-width:1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.no-padding
+{
+	max-width:1024px;
+	padding:0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navbar-brand
+{
+	font-weight: bold;
+}
+
+.btn-primary>.active{
+    margin-right: 30px;
+	background-color: black;
+}
+
+/*end of banner*/
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+/*start-btn-faqs*/
+.btn>.btn-default
+{
+  margin: 120px;
+}
+/*end-btn-faqs*/
+
+/*Container-Contact*/
+.panel-default{
+	max-width: 450px;
+	margin-right: 50px;
+	background-color: #F3F9FF;
+
+}
+/*Container-Contact*/
+
+/*Container-Panel Style*/
+.panel
+{
+	background-color: #EFF9FA;
+  max-width:995px; 
+  margin-top:0px;
+	padding-top:10px;
+  padding-bottom:5px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+/*End of Container Panel Style*/
+
+/*start of e-services templates*/
+.shadow 
+{
+	max-width:189px;
+	max-height:124px;
+	min-width:134px;
+	min-height:88px;
+	border:1px solid black;
+	box-shadow: 3px 5px 10px 2px #888888;
+}
+
+.shadow:hover
+{
+	opacity: 0.5;
+}
+/*end of e-services templates*/
+
+input[type="text"]:focus {
+    background-color: #FFFDF4;
+}
+
+input[type="email"]:focus {
+    background-color: #FFFDF4;
+}
+
+textarea:focus {
+    background-color: #FFFDF4;
+}
+
+/*----- Tabs -----*/
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        }
+
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+
+        .tab {
+            display:none;
+        }
+
+        .tab.active {
+            display:block;
+        }
+/*start of footer*/
+.site-footer
+{
+	max-width:1024px;
+	margin-top:0px;
+	padding-top:20px;
+    padding-bottom:5px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F8F8FF;
+	color:#696969;
+}
+
+.bottom-footer
+{
+	margin-top:0px;
+	margin-bottom: 30px;
+	text-align: right;
+	font-size: 10px;
+}
+/*end of footer*/
+
